@@ -1,0 +1,194 @@
+/* Body */
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    background: linear-gradient(#B00000,#711700);
+    color: white; 
+    margin: 0;
+    padding: 0.2em;
+    font-size: 2.3em;
+    text-align: center;  
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Header */
+
+header {
+    background-image: url('../img/header-pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-self: flex-end;
+    background-color: white;
+    padding: 4em 0 0 4em;
+    margin: 0;
+    flex-direction: row;
+    
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    color: #F6F1EF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4C2E1C;
+}
+
+h1::before {
+    content: " ";
+    display: inline-block;
+    background-image: url('../img/coffee_logo.svg');
+    background-size: fixed;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.5em -2px 0;
+}
+
+/* Menu */
+
+nav {
+    background: linear-gradient(#B00000,#711700) ;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2em 0 0;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 1.7em;
+    margin: 0.5em 1.2em 0.5em 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+    
+}
+
+nav li a:hover  {
+    color: #F20000;
+    -webkit-transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    transition: ease-in 0.2s;
+}
+
+/* Main */
+
+main {
+    margin: 0;
+}
+
+main section:nth-child(2){
+    background-color: rgba(88, 48, 16, 0.66);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 2em;
+    max-width: 44em;
+    margin: auto; 
+    
+}
+
+#pdfmenu-content {
+    margin-top: 1em;
+    width: 100%;
+    height: 30em;
+}
+
+article:nth-child(2) {
+    background-color: rgba(115, 91, 71, 0.97);
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em 2em;
+    max-width: 44em;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2em;
+    line-height: 1.4em;
+
+}
+
+#parallax {
+    background-image: url('../img/parallax.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+#parallax2 {
+    background-image: url('../img/parallax2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 2em;
+    
+}
+
+#parallax3 {
+    background-image: url('../img/parallax3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 2em;
+    
+}
+
+table {
+    background-color: rgba(88, 48, 16, 0.66);
+    border-radius: 5px;
+    margin: 2em auto;
+    padding: 2em;
+    padding-bottom: 2em;
+}
+
+tbody {
+    font-size: 2em;
+    padding: 1em;
+    
+}
+
+th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 1em 0 1em 0;
+}
+
+table td:last-child {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    margin: 0;
+    text-align: center;
+}
+
+footer > article {
+    display: flex;
+    margin: auto;
+    
+}
+
+#googlemaps {
+    width: 100%;
+    height: 20em;
+}
